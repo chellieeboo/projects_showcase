@@ -1,0 +1,32 @@
+# Java Student Management System
+
+## Project Overview
+A complete Java program that manages student records using Object-Oriented Programming (OOP) principles.
+
+## Features
+- ✅ Add new students
+- ✅ View all students (with status: PASSING/FAILING)
+- ✅ Search for a student by ID
+- ✅ Update student grades (with validation)
+- ✅ Delete a student
+- ✅ Input validation (grade must be 0-100)
+- ✅ Clean, professional output format
+
+## OOP Concepts Used
+1. **Encapsulation** – Private fields with public getters/setters
+2. **Classes and Objects** – Student class represents real-world entity
+3. **ArrayList** – Dynamic data storage
+4. **Methods** – Organized, reusable code blocks
+5. **Input Validation** – Ensures data integrity
+
+## What I Learned
+- How to design a complete Java application
+- How to use ArrayList for dynamic data storage
+- How to validate user input
+- How to follow OOP principles
+- How to create a user-friendly console interface
+
+## How to Run
+1. Compile:
+   ```bash
+   javac StudentManagementSystem.java
