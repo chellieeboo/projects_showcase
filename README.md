@@ -3,6 +3,17 @@
 ## About Me
 
 Hello! I'm an aspiring software developer passionate about building practical and reliable applications. I enjoy learning new technologies and creating projects that improve my programming skills.
+## My Approach to Coding
+
+I use AI as a **learning tool**, not a replacement for understanding.
+
+Every project in this portfolio was:
+1. Generated with AI assistance
+2. Read and analyzed line-by-line
+3. Customized and tested by me
+4. Documented to show what I learned
+
+**I believe in transparency.** I'm a student building my skills, not a Senior Dev pretending to be perfect. Clients who value honesty, growth, and hard work will find a reliable partner in me.
 
 ## Technical Skills
 
