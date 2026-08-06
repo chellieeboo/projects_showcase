@@ -44,7 +44,15 @@ Responsive email templates designed for newsletters and marketing campaigns.
 ### School Projects
 📁 [04-school-projects](04-school-projects/)
 
-Programming exercises and course projects completed during my BSIT studies.
+### 5. Java Inheritance Demo
+- 📁 [03-java-debugging/InheritanceDemo.java](03-java-debugging/InheritanceDemo.java)
+- Demonstrates inheritance with Person → Student/Teacher/Staff
+- Shows method overriding and polymorphism
+
+### 6. Java Polymorphism Demo (Interfaces)
+- 📁 [03-java-debugging/PolymorphismDemo.java](03-java-debugging/PolymorphismDemo.java)
+- Demonstrates interfaces with payment system example
+- Shows multiple implementations of the same interface
 
 ## Availability
 
