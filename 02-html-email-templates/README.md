@@ -1,33 +1,29 @@
 # HTML Email Templates
 
-A collection of responsive HTML email templates designed to work across major email clients, including Gmail, Outlook, and mobile devices.
+This project contains responsive HTML email templates built with inline CSS and table-based layouts — the standard approach for email development, since most email clients (Outlook, Gmail, etc.) don't support modern CSS like Flexbox or Grid.
+
+## Templates
+
+### [newsletter.html](./newsletter.html)
+A monthly newsletter layout with a header, a two-column feature section, a call-to-action button, and a footer.
+
+### [welcome_template.html](./welcome_template.html)
+A welcome/onboarding email with a gradient header, a feature highlights list, a call-to-action button, and a footer with social links and a physical address.
 
 ## What I Learned
 
-* Creating email layouts using table-based HTML for better compatibility
-* Writing inline CSS to ensure consistent styling across email clients
-* Building responsive designs that adapt to different screen sizes
-* Understanding email client limitations and best practices
-* Testing email templates before deployment
+- **Table-based layouts** — using nested `<table>` elements instead of `<div>`/Flexbox, since email clients render HTML very differently from web browsers
+- **Inline CSS** — styles must be written inline (`style="..."`) because most email clients strip out `<style>` blocks or external stylesheets
+- **`role="presentation"`** — added to layout tables so screen readers don't misread them as data tables, improving accessibility
+- **MSO conditional comments** (`<!--[if mso]>...<![endif]-->`) — used to fix rendering issues specific to Outlook, which uses Microsoft Word's engine to render emails instead of a standard browser engine
+- **Preheader text** — a hidden snippet of text that shows up as the preview next to the subject line in an inbox, added using `display:none` combined with `mso-hide:all`
+- **`color-scheme` meta tags** — added for better support in email clients with dark mode
 
-## Features
+## Notes
 
-Responsive email layouts
-* Gmail and Outlook compatibility
-* Inline CSS styling
-* Mobile-friendly design
-* Clean and reusable email components
+- Links in these templates use placeholder `href="#"` values since this is a portfolio demo, not a live campaign.
+- No external images are used; all visuals are built with CSS (gradients, colors, emoji icons) to keep the templates self-contained and easy to preview.
 
-## Technologies Used
+## How to Preview
 
-* HTML5
-* Inline CSS
-* Email design best practices
-
-## Example Templates
-
-* Welcome Newsletter Email
-* Promotional Email
-* Product Announcement Email
-* Newsletter Layout
-
+Simply open either `.html` file directly in a web browser to see the layout. For a true accuracy check across email clients, tools like [Litmus](https://www.litmus.com/) or [Email on Acid](https://www.emailonacid.com/) are commonly used in real projects.
