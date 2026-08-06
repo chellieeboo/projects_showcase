@@ -36,8 +36,10 @@ Responsive email templates designed for newsletters and marketing campaigns.
 
 ### Java OOP Debugging
 📁 [03-java-debugging](03-java-debugging/)
-
-Examples of debugging Java programs with explanations of the issues and solutions.
+###  Java Student Management System
+- Complete CRUD application with OOP
+- Features: Add, View, Search, Update, Delete
+- Demonstrates encapsulation, ArrayList, input validation
 
 ### School Projects
 📁 [04-school-projects](04-school-projects/)
